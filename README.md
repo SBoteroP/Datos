@@ -36,9 +36,9 @@ The following files represent different configurations of the DEMA strategy appl
 The project simulates the performance of the **Supertrend** indicator in combination with various DEMA configurations to analyze market behavior across different timeframes. The `.csv` files contain the results of these simulations for use in further analysis, visualization, or backtesting.
 
 ## Timeframes
-- **15-minute**
-- **30-minute**
 - **1-hour**
+- **30-minute**
+- **15-minute**
 
 Each timeframe is paired with different DEMA periods (200, 600, and 800) to observe their respective performances under varying market conditions.
 
