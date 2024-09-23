@@ -6,16 +6,16 @@ This repository contains data generated from simulations that use **Supertrend**
 ## Files
 The following files represent different configurations of the DEMA strategy applied to various candlestick timeframes:
 
-### DEMA Files
-- **DEMA200_15.csv**: DEMA with a period of 200 on 15-minute candlesticks.
-- **DEMA200_30.csv**: DEMA with a period of 200 on 30-minute candlesticks.
-- **DEMA200_60.csv**: DEMA with a period of 200 on 1-hour candlesticks.
-- **DEMA600_15.csv**: DEMA with a period of 600 on 15-minute candlesticks.
-- **DEMA600_30.csv**: DEMA with a period of 600 on 30-minute candlesticks.
-- **DEMA600_60.csv**: DEMA with a period of 600 on 1-hour candlesticks.
-- **DEMA800_15.csv**: DEMA with a period of 800 on 15-minute candlesticks.
-- **DEMA800_30.csv**: DEMA with a period of 800 on 30-minute candlesticks.
-- **DEMA800_60.csv**: DEMA with a period of 800 on 1-hour candlesticks.
+### SP3 DEMA Files
+- **SP3_DEMA200_15.csv**: DEMA with a period of 200 on 15-minute candlesticks (SP3 dataset).
+- **SP3_DEMA200_30.csv**: DEMA with a period of 200 on 30-minute candlesticks (SP3 dataset).
+- **SP3_DEMA200_60.csv**: DEMA with a period of 200 on 1-hour candlesticks (SP3 dataset).
+- **SP3_DEMA600_15.csv**: DEMA with a period of 600 on 15-minute candlesticks (SP3 dataset).
+- **SP3_DEMA600_30.csv**: DEMA with a period of 600 on 30-minute candlesticks (SP3 dataset).
+- **SP3_DEMA600_60.csv**: DEMA with a period of 600 on 1-hour candlesticks (SP3 dataset).
+- **SP3_DEMA800_15.csv**: DEMA with a period of 800 on 15-minute candlesticks (SP3 dataset).
+- **SP3_DEMA800_30.csv**: DEMA with a period of 800 on 30-minute candlesticks (SP3 dataset).
+- **SP3_DEMA800_60.csv**: DEMA with a period of 800 on 1-hour candlesticks (SP3 dataset).
 
 ### SP2 DEMA Files
 - **SP2_DEMA200_15.csv**: DEMA with a period of 200 on 15-minute candlesticks (SP2 dataset).
@@ -36,9 +36,9 @@ The following files represent different configurations of the DEMA strategy appl
 The project simulates the performance of the **Supertrend** indicator in combination with various DEMA configurations to analyze market behavior across different timeframes. The `.csv` files contain the results of these simulations for use in further analysis, visualization, or backtesting.
 
 ## Timeframes
-- **15-minute**
-- **30-minute**
 - **1-hour**
+- **30-minute**
+- **15-minute**
 
 Each timeframe is paired with different DEMA periods (200, 600, and 800) to observe their respective performances under varying market conditions.
 
